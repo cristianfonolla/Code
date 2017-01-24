@@ -1,0 +1,28 @@
+[
+    {
+        "name": "cristianfonolla/hello-world-package",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cristianfonolla/HelloWorldPackage.git",
+            "reference": "4e2ef7d3b62653b32b2239eee288269b9c5e6567"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cristianfonolla/HelloWorldPackage/zipball/4e2ef7d3b62653b32b2239eee288269b9c5e6567",
+            "reference": "4e2ef7d3b62653b32b2239eee288269b9c5e6567",
+            "shasum": ""
+        },
+        "time": "2016-10-04 14:41:16",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Cristianfonolla\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "dummy hello world package"
+    }
+]

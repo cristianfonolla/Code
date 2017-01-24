@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1a0bb0bfef3125b90b0a50167763807a",
+    "content-hash": "af5612ef54952eb559ec76f3e50795df",
+    "packages": [
+        {
+            "name": "cristianfonolla/hello-world-package",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cristianfonolla/HelloWorldPackage.git",
+                "reference": "4e2ef7d3b62653b32b2239eee288269b9c5e6567"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cristianfonolla/HelloWorldPackage/zipball/4e2ef7d3b62653b32b2239eee288269b9c5e6567",
+                "reference": "4e2ef7d3b62653b32b2239eee288269b9c5e6567",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cristianfonolla\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "dummy hello world package",
+            "time": "2016-10-04 14:41:16"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cristianfonolla/hello-world-package": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
